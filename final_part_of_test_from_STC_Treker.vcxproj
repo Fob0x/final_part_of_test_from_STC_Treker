@@ -19,7 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EditTasksHandler.cpp" />
+    <ClCompile Include="ExpiredTasksHandler.cpp" />
+    <ClCompile Include="HttpRequestHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainPageHandler.cpp" />
+    <ClCompile Include="PastMain.cpp" />
+    <ClCompile Include="PostgreSQLdb.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditTasksHandler.h" />
+    <ClInclude Include="ExpiredTasksHandler.h" />
+    <ClInclude Include="HttpRequestHandler.h" />
+    <ClInclude Include="MainPageHandler.h" />
+    <ClInclude Include="PostgreSQLdb.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
